@@ -6,3 +6,6 @@ def pytest_addoption(parser):
 @pytest.fixture(scope="session")
 def env(request):
     return request.config.getoption("--env")
+
+pytest_plugins = ["fixtures.auth_fixture"]
+

@@ -4,3 +4,4 @@ base_url: "https://restful-booker.herokuapp.com"
 username: "admin"
 password: "password123"
 default_timeout: 10
+env: "stage"  # Options: "dev", "stage", "prod"
