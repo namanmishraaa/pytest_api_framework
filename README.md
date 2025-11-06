@@ -10,15 +10,24 @@ A simple and scalable **Pytest-based automation framework** designed for learnin
 ```markdown
 
 automation_framework/
-├── tests/              # Contains all test cases
-│   └── test_sample.py  # Example test file
-├── config/             # Environment configs or constants
-├── utils/              # Helper functions and utilities
-├── fixtures/           # Shared pytest fixtures
-├── reports/            # Test execution reports
-├── conftest.py         # Global fixtures and hooks
-├── requirements.txt    # Project dependencies
-└── README.md           # Documentation
+├── config/
+│   └── config.yaml
+│
+├── fixtures/
+│   └── auth_fixture.py
+│
+├── tests/
+│   ├── test_auth.py
+│
+├── utils/
+│   ├── config_reader.py
+│
+├── reports/                         
+│
+├── conftest.py
+├── requirements.txt
+└── README.md                        
+
 
 ```
 

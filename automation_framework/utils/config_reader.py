@@ -9,8 +9,8 @@ def read_config():
     return config
 
 def get_base_url():
-    return read_config().get("base_url")
+    return read_config()['base_url']
 
 def get_credentials():
     cfg = read_config()
-    return {"username": cfg.get("username"), "password": cfg.get("password")}
+    return {"username": cfg['username'], "password": cfg['password']}
