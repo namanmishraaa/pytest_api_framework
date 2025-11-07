@@ -1,4 +1,4 @@
-import requests
+import requests, pytest
 from utils.config_reader import read_config, get_base_url
 
 def test_read_config_returns_base_url():
