@@ -16,6 +16,7 @@ automation_framework/
 ├── logs/
 │   └── framework.log
 ├── reports/
+│   ├── __init__.py
 │   └── report.html
 ├── tests/
 │   ├── __init__.py
@@ -28,9 +29,10 @@ automation_framework/
 │   └── logger.py
 ├── conftest.py
 ├── copilot_prompt_api_framework_blueprint.md
+├── GEMINI.md
 ├── pytest.ini
-├── requirements.txt
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 
