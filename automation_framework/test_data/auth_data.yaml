@@ -1,0 +1,13 @@
+# This file contains authentication data for various services. It contains valid, invalid and empty credentials for authentication.
+
+valid_credentials:
+    username: "valid_user"
+    password: "valid_password"
+
+invalid_credentials:
+    username: "invalid_user"
+    password: "invalid_password"
+
+empty_credentials:
+    username: ""
+    password: ""
